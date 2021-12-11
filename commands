@@ -1,0 +1,9 @@
+//Init Project
+nvm use 14.17.6
+nest new nestjs-graphql-mongodb
+
+//mongodb
+docker run --name mongo -p 27017:27017 -d mongo
+
+//graphql apollo
+yarn add graphql graphql-tools apollo-server-express @nestjs/graphql
