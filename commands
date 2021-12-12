@@ -6,4 +6,18 @@ nest new nestjs-graphql-mongodb
 docker run --name mongo -p 27017:27017 -d mongo
 
 //graphql apollo
-yarn add graphql graphql-tools apollo-server-express @nestjs/graphql
+yarn add graphql@15.7.2 graphql-tools apollo-server-express @nestjs/graphql
+
+//typeorm mongodb
+yarn add typeorm @nestjs/typeorm mongodb @types/mongodb
+
+//modules
+nest g module lesson
+
+//git
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/adolfredo-coneo/nestjs-graphql-mongodb.git
+git push -u origin main
