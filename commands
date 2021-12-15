@@ -13,12 +13,17 @@ yarn add typeorm @nestjs/typeorm mongodb@3.7.1 @types/mongodb
 
 //modules
 nest g module lesson
+nest g module student
 
 //services
 nest g service lesson --no-spec
+nest g service student --no-spec
 
 //uuid
 yarn add uuid
+
+//class-validator class-transformer
+yarn add class-validator class-transformer
 
 //git
 git init
